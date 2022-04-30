@@ -1,0 +1,78 @@
+.container {
+  width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+form {
+  margin-top: 10px;
+}
+
+.input__id, .input__pwd {
+  height: 30px;
+  padding: 3px;
+  padding-left: 10px;
+  margin: 5px 0;
+  background-color: rgb(232, 240, 254);
+  border-radius: 6px;
+  border: 1px solid rgb(214, 214, 214);
+}
+
+.input__pwd-submit {
+  position: relative;
+}
+
+.input__pwd-submit .input__submit {
+  position: absolute;
+  display: inline;
+  height: 23px;
+  top: 0;
+  bottom: 0;
+  right: 295px;
+  margin: auto;
+  opacity: .3;
+  transition: .2s;
+}
+
+.input__pwd-submit .input__submit:hover {
+  opacity: .8;
+}
+
+.login_keep {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login_keep .input_keep {
+  margin-right: 10px;
+  border-radius: 4px;
+  
+}
+
+.footer  {
+  margin-top: 45px;
+  font-size: 12px;
+}
+
+.footer div {
+  margin-top: 7px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(0, 112, 201);
+}
+

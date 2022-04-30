@@ -1,0 +1,23 @@
+프로젝트 - 플레이리스트
+
+* youtube API 사용
+* 회원가입 / 로그인 / 로그아웃
+* 플레이리스트 만드는 기능
+* 플레이리스트에 노래를 추가하는 기능 
+
+* 회원가입 폼
+아이디, 비밀번호, 이름, 이메일, 전화번호, 주소 / 가입일은 db에서
+
+< CSS >
+
+* 선택자
+id : js
+class : css
+
+BEM
+
+영어 소문자로 작성합니다.
+일반 단어의 경우에는 - 으로 연결합니다. (my-menu)
+element의 경우에는  blcok 뒤에 __ (double underscore)으로 연결합니다. (__item)
+modifier의 경우에는 element 뒤에 _ 으로 연결합니다. (_visible)
+즉, BEM방식으로 mymenuitemvisible이라는 selector를 작성하면 my-menu__item_visible이 되겠네요. selector의 이름만 보고도 어디서 사용하고 있는지 훨씬 더 잘 알아볼 수 있을 것입니다.
