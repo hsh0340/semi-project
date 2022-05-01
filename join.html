@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/join.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>ID 생성</h1>
+      <h2>ID를 가지고 계십니까?&nbsp;<a href="#">찾아보기</a></h2>
+    </div>
+
+
+    <form>
+      <div>
+        <input type="text" placeholder="ID" size="30">
+      </div>
+      <div>
+        <input type="password" placeholder="암호" size="30">
+      </div>
+      <div>
+        <input type="password" placeholder="암호확인" size="30">
+      </div>
+
+      <hr>
+      <div>
+        <input type="text" placeholder="이름" size="30">
+      </div>
+      <div>
+        <input type="text" placeholder="name@example.com" size="30">
+      </div>
+      <div>
+        <input type="text" placeholder="01012345678" size="30">
+      </div>
+      <div class="find-address">
+        <input type="button" value="주소찾기" class="address__btn">
+        <input type="text" size="30" class="address_readonly" readonly>
+      </div>
+     <div>
+      <input type="text" placeholder="나머지 주소 입력" size="30" class="address__text">
+     </div>
+      
+      <input type="button" value="회원가입" class="join__btn">
+
+    </form>
+  </div>
+</body>
+
+</html>
