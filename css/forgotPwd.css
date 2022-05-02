@@ -1,0 +1,38 @@
+.container {
+  width: 800px;
+  margin: 150px auto;
+  padding: 10px;
+  text-align: center;
+  /* box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(50, 50, 93, 0.11); */
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.input__id, .input__name, .input__email, .input__tel {
+  margin: 15px 0;
+  height: 35px;
+  width: 250px;
+  padding: 3px;
+  padding-left: 10px;
+  border-radius: 11px;
+  border: 1px solid rgb(214, 214, 214);
+  font-size: 14px;
+}
+
+.input__btn {
+  margin-top: 30px;
+  width: 170px;
+  height: 35px;
+  background-color: rgb(0, 113, 227);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
